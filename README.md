@@ -11,4 +11,13 @@ This is the annotation toolkit for TRoM data set. It is written with MATLAB and 
  + When launch the MATLAB, run Mark_Road.m then the interface as figure above will be shown.
  + More shortcut is the same as impoly, you can refer to 'help impoly' in matlab command window.
  + This is the first version, we will release new versions in the future.
- + If you feel awkwork to use this toolkit, welcome critic on this 
+ + If you feel awkwork to use this toolkit, welcome critic on this or email to me: xllau@126.com. Please call me xiaolong liu.
+ 
+ This is part of the paper work: Benchmark for Road Marking Detection: Dataset Specification and Performance Baseline. we will be happy if you cite us.
+ 
+@inproceedings{xiaolong2017benchmark,   
+title={Benchmark for Road Marking Detection: Dataset Specification and Performance Baseline},   
+author={Xiaolong Liu, Zhidong Deng, Hongchao Lu, Lele Cao},   
+booktitle={ITSC},   
+year={2017} 
+}
