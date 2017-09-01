@@ -1,8 +1,14 @@
 # TRoM_annotation_v1.0
-This is the annotation toolkit for TRoM data set.
+This is the annotation toolkit for TRoM data set. It is written with MATLAB and the main function is impoly. It can provide a pixel-level annotation for the data set TRoM(Tsinghua road markings)
 
+![interface](./pic/mark.jpg)
 
- 1. matlab版本尽量2015以后的。
- 2. 文件里面./image 是需要标注的图片，./gt 是标注完的图片。list.txt是文件列表。有几个示例在里面。
- 3. 此版本是在windows下运行的。进入目录后运行 Mark_Road.m 就可以启动界面。
- 4. 此标注工具是为我们路面数据库编写的，原则上是不能直接用到我们这个上面来。如果要用需要一些针对当前任务的改进工作。
+ + Try to keep the MATLAB version later than 2015a.
+ + ./image is directory of the raw images. 
+ + ./gt is the directory of the annotated images.
+ + list.txt is the image list. If you want to mark more images, creat the list in advance.
+ + This is the version which runs on windows. If you try to run on ubuntu or mac, modified the seperator.
+ + When launch the MATLAB, run Mark_Road.m then the interface as figure above will be shown.
+ + More shortcut is the same as impoly, you can refer to 'help impoly' in matlab command window.
+ + This is the first version, we will release new versions in the future.
+ + If you feel awkwork to use this toolkit, welcome critic on this 
